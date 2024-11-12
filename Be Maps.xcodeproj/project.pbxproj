@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1EE90A2CDD33C9009DDB96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EE9092CDD33C9009DDB96 /* AppDelegate.swift */; };
+		CE1EE90C2CDD33C9009DDB96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EE90B2CDD33C9009DDB96 /* SceneDelegate.swift */; };
+		CE1EE90E2CDD33C9009DDB96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EE90D2CDD33C9009DDB96 /* ViewController.swift */; };
+		CE1EE9112CDD33C9009DDB96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1EE90F2CDD33C9009DDB96 /* Main.storyboard */; };
+		CE1EE9132CDD33CC009DDB96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1EE9122CDD33CC009DDB96 /* Assets.xcassets */; };
+		CE1EE9162CDD33CC009DDB96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1EE9142CDD33CC009DDB96 /* LaunchScreen.storyboard */; };
+		CE1EE9212CDD33CC009DDB96 /* Be_MapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EE9202CDD33CC009DDB96 /* Be_MapsTests.swift */; };
+		CE1EE92B2CDD33CC009DDB96 /* Be_MapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EE92A2CDD33CC009DDB96 /* Be_MapsUITests.swift */; };
+		CE1EE92D2CDD33CC009DDB96 /* Be_MapsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EE92C2CDD33CC009DDB96 /* Be_MapsUITestsLaunchTests.swift */; };
+		CE7374A22CDEBB210098A35F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE7374A12CDEBB210098A35F /* GoogleService-Info.plist */; };
+		CE7374A42CDF468A0098A35F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7374A32CDF468A0098A35F /* LoginVC.swift */; };
+		CE7374A62CDF4FD00098A35F /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7374A52CDF4FD00098A35F /* Shared.swift */; };
+		CE8884322CE128FF0077127F /* ListUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8884312CE128FF0077127F /* ListUsersVC.swift */; };
+		CE8884392CE12BA30077127F /* UsersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8884372CE12BA30077127F /* UsersCell.swift */; };
+		CE88843A2CE12BA30077127F /* UsersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8884382CE12BA30077127F /* UsersCell.xib */; };
+		CE88843C2CE12D140077127F /* UsersM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88843B2CE12D140077127F /* UsersM.swift */; };
+		CE8884402CE136EB0077127F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88843F2CE136EB0077127F /* Extension.swift */; };
+		CE8884422CE199F20077127F /* PathM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8884412CE199F20077127F /* PathM.swift */; };
+		CE8884442CE1C0700077127F /* LocationsM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8884432CE1C0700077127F /* LocationsM.swift */; };
+		CE8884462CE1D19F0077127F /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8884452CE1D19F0077127F /* SplashVC.swift */; };
+		FF9E0677F5F50D1278B1D5F6 /* Pods_Be_Maps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8024FDECC0CB74E836B1AC05 /* Pods_Be_Maps.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE1EE91D2CDD33CC009DDB96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE1EE8FE2CDD33C9009DDB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE1EE9052CDD33C9009DDB96;
+			remoteInfo = "Be Maps";
+		};
+		CE1EE9272CDD33CC009DDB96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE1EE8FE2CDD33C9009DDB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE1EE9052CDD33C9009DDB96;
+			remoteInfo = "Be Maps";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		082478D2B92F42ADB0AB4B6A /* Pods-Be Maps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Be Maps.debug.xcconfig"; path = "Target Support Files/Pods-Be Maps/Pods-Be Maps.debug.xcconfig"; sourceTree = "<group>"; };
+		30AD21D9B31305733E1CD76C /* Pods-Be Maps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Be Maps.release.xcconfig"; path = "Target Support Files/Pods-Be Maps/Pods-Be Maps.release.xcconfig"; sourceTree = "<group>"; };
+		8024FDECC0CB74E836B1AC05 /* Pods_Be_Maps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Be_Maps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1EE9062CDD33C9009DDB96 /* Be Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Be Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1EE9092CDD33C9009DDB96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE1EE90B2CDD33C9009DDB96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE1EE90D2CDD33C9009DDB96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE1EE9102CDD33C9009DDB96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE1EE9122CDD33CC009DDB96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE1EE9152CDD33CC009DDB96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE1EE9172CDD33CC009DDB96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1EE91C2CDD33CC009DDB96 /* Be MapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Be MapsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1EE9202CDD33CC009DDB96 /* Be_MapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Be_MapsTests.swift; sourceTree = "<group>"; };
+		CE1EE9262CDD33CC009DDB96 /* Be MapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Be MapsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1EE92A2CDD33CC009DDB96 /* Be_MapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Be_MapsUITests.swift; sourceTree = "<group>"; };
+		CE1EE92C2CDD33CC009DDB96 /* Be_MapsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Be_MapsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE7374A12CDEBB210098A35F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE7374A32CDF468A0098A35F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		CE7374A52CDF4FD00098A35F /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		CE8884312CE128FF0077127F /* ListUsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersVC.swift; sourceTree = "<group>"; };
+		CE8884372CE12BA30077127F /* UsersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCell.swift; sourceTree = "<group>"; };
+		CE8884382CE12BA30077127F /* UsersCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersCell.xib; sourceTree = "<group>"; };
+		CE88843B2CE12D140077127F /* UsersM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersM.swift; sourceTree = "<group>"; };
+		CE88843F2CE136EB0077127F /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CE8884412CE199F20077127F /* PathM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathM.swift; sourceTree = "<group>"; };
+		CE8884432CE1C0700077127F /* LocationsM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsM.swift; sourceTree = "<group>"; };
+		CE8884452CE1D19F0077127F /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE1EE9032CDD33C9009DDB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9E0677F5F50D1278B1D5F6 /* Pods_Be_Maps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1EE9192CDD33CC009DDB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1EE9232CDD33CC009DDB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B2AD036B2C459115C774490 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				082478D2B92F42ADB0AB4B6A /* Pods-Be Maps.debug.xcconfig */,
+				30AD21D9B31305733E1CD76C /* Pods-Be Maps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE1EE8FD2CDD33C9009DDB96 = {
+			isa = PBXGroup;
+			children = (
+				CE1EE9082CDD33C9009DDB96 /* Be Maps */,
+				CE1EE91F2CDD33CC009DDB96 /* Be MapsTests */,
+				CE1EE9292CDD33CC009DDB96 /* Be MapsUITests */,
+				CE1EE9072CDD33C9009DDB96 /* Products */,
+				0B2AD036B2C459115C774490 /* Pods */,
+				E67A3D0D15D6E29B76F13C9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE1EE9072CDD33C9009DDB96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EE9062CDD33C9009DDB96 /* Be Maps.app */,
+				CE1EE91C2CDD33CC009DDB96 /* Be MapsTests.xctest */,
+				CE1EE9262CDD33CC009DDB96 /* Be MapsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE1EE9082CDD33C9009DDB96 /* Be Maps */ = {
+			isa = PBXGroup;
+			children = (
+				CE88843D2CE1367D0077127F /* Delegate */,
+				CE88843E2CE136A40077127F /* Controls */,
+				CE8884352CE12AF60077127F /* Controller */,
+				CE8884342CE12AF00077127F /* Model */,
+				CE8884332CE12AE30077127F /* View */,
+				CE1EE90F2CDD33C9009DDB96 /* Main.storyboard */,
+				CE1EE9142CDD33CC009DDB96 /* LaunchScreen.storyboard */,
+				CE1EE9122CDD33CC009DDB96 /* Assets.xcassets */,
+				CE1EE9172CDD33CC009DDB96 /* Info.plist */,
+				CE7374A12CDEBB210098A35F /* GoogleService-Info.plist */,
+			);
+			path = "Be Maps";
+			sourceTree = "<group>";
+		};
+		CE1EE91F2CDD33CC009DDB96 /* Be MapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EE9202CDD33CC009DDB96 /* Be_MapsTests.swift */,
+			);
+			path = "Be MapsTests";
+			sourceTree = "<group>";
+		};
+		CE1EE9292CDD33CC009DDB96 /* Be MapsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EE92A2CDD33CC009DDB96 /* Be_MapsUITests.swift */,
+				CE1EE92C2CDD33CC009DDB96 /* Be_MapsUITestsLaunchTests.swift */,
+			);
+			path = "Be MapsUITests";
+			sourceTree = "<group>";
+		};
+		CE8884332CE12AE30077127F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE8884362CE12B830077127F /* UsersCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE8884342CE12AF00077127F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE88843B2CE12D140077127F /* UsersM.swift */,
+				CE8884412CE199F20077127F /* PathM.swift */,
+				CE8884432CE1C0700077127F /* LocationsM.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE8884352CE12AF60077127F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE7374A32CDF468A0098A35F /* LoginVC.swift */,
+				CE8884312CE128FF0077127F /* ListUsersVC.swift */,
+				CE1EE90D2CDD33C9009DDB96 /* ViewController.swift */,
+				CE8884452CE1D19F0077127F /* SplashVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE8884362CE12B830077127F /* UsersCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE8884372CE12BA30077127F /* UsersCell.swift */,
+				CE8884382CE12BA30077127F /* UsersCell.xib */,
+			);
+			path = UsersCell;
+			sourceTree = "<group>";
+		};
+		CE88843D2CE1367D0077127F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EE9092CDD33C9009DDB96 /* AppDelegate.swift */,
+				CE1EE90B2CDD33C9009DDB96 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		CE88843E2CE136A40077127F /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				CE7374A52CDF4FD00098A35F /* Shared.swift */,
+				CE88843F2CE136EB0077127F /* Extension.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		E67A3D0D15D6E29B76F13C9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8024FDECC0CB74E836B1AC05 /* Pods_Be_Maps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE1EE9052CDD33C9009DDB96 /* Be Maps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1EE9302CDD33CC009DDB96 /* Build configuration list for PBXNativeTarget "Be Maps" */;
+			buildPhases = (
+				22A97E1ABB16114F7430306C /* [CP] Check Pods Manifest.lock */,
+				CE1EE9022CDD33C9009DDB96 /* Sources */,
+				CE1EE9032CDD33C9009DDB96 /* Frameworks */,
+				CE1EE9042CDD33C9009DDB96 /* Resources */,
+				11C28856A8C143754517F3E0 /* [CP] Copy Pods Resources */,
+				4C9BF23127DF7C994AAACB7F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Be Maps";
+			productName = "Be Maps";
+			productReference = CE1EE9062CDD33C9009DDB96 /* Be Maps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE1EE91B2CDD33CC009DDB96 /* Be MapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1EE9332CDD33CC009DDB96 /* Build configuration list for PBXNativeTarget "Be MapsTests" */;
+			buildPhases = (
+				CE1EE9182CDD33CC009DDB96 /* Sources */,
+				CE1EE9192CDD33CC009DDB96 /* Frameworks */,
+				CE1EE91A2CDD33CC009DDB96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE1EE91E2CDD33CC009DDB96 /* PBXTargetDependency */,
+			);
+			name = "Be MapsTests";
+			productName = "Be MapsTests";
+			productReference = CE1EE91C2CDD33CC009DDB96 /* Be MapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE1EE9252CDD33CC009DDB96 /* Be MapsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1EE9362CDD33CC009DDB96 /* Build configuration list for PBXNativeTarget "Be MapsUITests" */;
+			buildPhases = (
+				CE1EE9222CDD33CC009DDB96 /* Sources */,
+				CE1EE9232CDD33CC009DDB96 /* Frameworks */,
+				CE1EE9242CDD33CC009DDB96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE1EE9282CDD33CC009DDB96 /* PBXTargetDependency */,
+			);
+			name = "Be MapsUITests";
+			productName = "Be MapsUITests";
+			productReference = CE1EE9262CDD33CC009DDB96 /* Be MapsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE1EE8FE2CDD33C9009DDB96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CE1EE9052CDD33C9009DDB96 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CE1EE91B2CDD33CC009DDB96 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CE1EE9052CDD33C9009DDB96;
+					};
+					CE1EE9252CDD33CC009DDB96 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CE1EE9052CDD33C9009DDB96;
+					};
+				};
+			};
+			buildConfigurationList = CE1EE9012CDD33C9009DDB96 /* Build configuration list for PBXProject "Be Maps" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE1EE8FD2CDD33C9009DDB96;
+			productRefGroup = CE1EE9072CDD33C9009DDB96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE1EE9052CDD33C9009DDB96 /* Be Maps */,
+				CE1EE91B2CDD33CC009DDB96 /* Be MapsTests */,
+				CE1EE9252CDD33CC009DDB96 /* Be MapsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE1EE9042CDD33C9009DDB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1EE9162CDD33CC009DDB96 /* LaunchScreen.storyboard in Resources */,
+				CE88843A2CE12BA30077127F /* UsersCell.xib in Resources */,
+				CE7374A22CDEBB210098A35F /* GoogleService-Info.plist in Resources */,
+				CE1EE9132CDD33CC009DDB96 /* Assets.xcassets in Resources */,
+				CE1EE9112CDD33C9009DDB96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1EE91A2CDD33CC009DDB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1EE9242CDD33CC009DDB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11C28856A8C143754517F3E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Be Maps/Pods-Be Maps-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Be Maps/Pods-Be Maps-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Be Maps/Pods-Be Maps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22A97E1ABB16114F7430306C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Be Maps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C9BF23127DF7C994AAACB7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Be Maps/Pods-Be Maps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Be Maps/Pods-Be Maps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Be Maps/Pods-Be Maps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE1EE9022CDD33C9009DDB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8884402CE136EB0077127F /* Extension.swift in Sources */,
+				CE7374A62CDF4FD00098A35F /* Shared.swift in Sources */,
+				CE1EE90E2CDD33C9009DDB96 /* ViewController.swift in Sources */,
+				CE1EE90A2CDD33C9009DDB96 /* AppDelegate.swift in Sources */,
+				CE8884422CE199F20077127F /* PathM.swift in Sources */,
+				CE8884462CE1D19F0077127F /* SplashVC.swift in Sources */,
+				CE8884442CE1C0700077127F /* LocationsM.swift in Sources */,
+				CE8884322CE128FF0077127F /* ListUsersVC.swift in Sources */,
+				CE7374A42CDF468A0098A35F /* LoginVC.swift in Sources */,
+				CE8884392CE12BA30077127F /* UsersCell.swift in Sources */,
+				CE88843C2CE12D140077127F /* UsersM.swift in Sources */,
+				CE1EE90C2CDD33C9009DDB96 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1EE9182CDD33CC009DDB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1EE9212CDD33CC009DDB96 /* Be_MapsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1EE9222CDD33CC009DDB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1EE92D2CDD33CC009DDB96 /* Be_MapsUITestsLaunchTests.swift in Sources */,
+				CE1EE92B2CDD33CC009DDB96 /* Be_MapsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE1EE91E2CDD33CC009DDB96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE1EE9052CDD33C9009DDB96 /* Be Maps */;
+			targetProxy = CE1EE91D2CDD33CC009DDB96 /* PBXContainerItemProxy */;
+		};
+		CE1EE9282CDD33CC009DDB96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE1EE9052CDD33C9009DDB96 /* Be Maps */;
+			targetProxy = CE1EE9272CDD33CC009DDB96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE1EE90F2CDD33C9009DDB96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1EE9102CDD33C9009DDB96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE1EE9142CDD33CC009DDB96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1EE9152CDD33CC009DDB96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE1EE92E2CDD33CC009DDB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE1EE92F2CDD33CC009DDB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE1EE9312CDD33CC009DDB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 082478D2B92F42ADB0AB4B6A /* Pods-Be Maps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF6MD389M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Be Maps/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "BeMaps would like to use your current location to display it on the app, also for directions and estimation of your travel times. It is secure and private.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "BeMaps would like to use your current location to display it on the app, also for directions and estimation of your travel times. It is secure and private.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bemotion.Be-Maps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE1EE9322CDD33CC009DDB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30AD21D9B31305733E1CD76C /* Pods-Be Maps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF6MD389M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Be Maps/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "BeMaps would like to use your current location to display it on the app, also for directions and estimation of your travel times. It is secure and private.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "BeMaps would like to use your current location to display it on the app, also for directions and estimation of your travel times. It is secure and private.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bemotion.Be-Maps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CE1EE9342CDD33CC009DDB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF6MD389M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bemotion.Be-MapsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Be Maps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Be Maps";
+			};
+			name = Debug;
+		};
+		CE1EE9352CDD33CC009DDB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF6MD389M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bemotion.Be-MapsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Be Maps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Be Maps";
+			};
+			name = Release;
+		};
+		CE1EE9372CDD33CC009DDB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF6MD389M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bemotion.Be-MapsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Be Maps";
+			};
+			name = Debug;
+		};
+		CE1EE9382CDD33CC009DDB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF6MD389M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bemotion.Be-MapsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Be Maps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE1EE9012CDD33C9009DDB96 /* Build configuration list for PBXProject "Be Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1EE92E2CDD33CC009DDB96 /* Debug */,
+				CE1EE92F2CDD33CC009DDB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1EE9302CDD33CC009DDB96 /* Build configuration list for PBXNativeTarget "Be Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1EE9312CDD33CC009DDB96 /* Debug */,
+				CE1EE9322CDD33CC009DDB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1EE9332CDD33CC009DDB96 /* Build configuration list for PBXNativeTarget "Be MapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1EE9342CDD33CC009DDB96 /* Debug */,
+				CE1EE9352CDD33CC009DDB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1EE9362CDD33CC009DDB96 /* Build configuration list for PBXNativeTarget "Be MapsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1EE9372CDD33CC009DDB96 /* Debug */,
+				CE1EE9382CDD33CC009DDB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE1EE8FE2CDD33C9009DDB96 /* Project object */;
+}
